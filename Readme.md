@@ -37,7 +37,10 @@ Aplikasi Sistem Manajemen Laundry (Washiland) adalah sebuah program berbasis Jav
 
 Untuk menjalankan Aplikasi Layanan Laundry:
 1. Pastikan Java 8 atau lebih tinggi sudah terinstal.
-2. Unduh kode sumber (`Laundry.java`).
+2. Clone repsitory berikut
+    ```bash
+   git clone https://github.com/Trafit/UAP_S3.git
+   ```
 3. Kompilasi file Java menggunakan IDE atau command line:
     ```bash
     javac Laundry.java
@@ -46,6 +49,23 @@ Untuk menjalankan Aplikasi Layanan Laundry:
     ```bash
     java Laundry
     ```
+
+## Struktur Project
+
+```
+Test
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── org.example/
+│   │           └── Laundry.java
+│   │
+│   │            
+│   └── test/
+│       └── java/
+│           └── org.example/
+│               └── Laundrytest
+```
 
 ## Cara Penggunaan
 1. Jalankan aplikasi
